@@ -43,7 +43,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Magic from the Realm of Technology
+            Blockchain Innovation from Morocco
           </p>
 
           {/**
@@ -52,17 +52,17 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Helping People to Migrate into The World of Web 3.0"
+            words="Building the Future with Web3 & Blockchain Technology"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hello there! I&apos;m Sujay, a Blockchain Developer based in India.
+            Hello there! I&apos;m Harris BTBZ, a passionate Web3 developer specializing in blockchain automation, smart contracts, and decentralized applications.
           </p>
 
-          <a href="https://github.com/devsujay19?tab=repositories" target="_blank">
+          <a href="mailto:bitbuzzcoin@gmail.com">
             <MagicButton
-              title="Show my work"
+              title="Let's collaborate"
               icon={<FaLocationArrow />}
               position="right"
             />

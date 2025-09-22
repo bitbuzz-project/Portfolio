@@ -13,9 +13,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="Research & Architecture"
           icon={<AceternityIcon order="Phase 1" />}
-          des="First of all, I plan the structures, design and functionalities with the help of different tools like Figma, Cranq and other GUI-based tools. Then, I build a client-side prototype of the web-application using Figma."
+          des="I start by thoroughly researching the blockchain ecosystem, analyzing smart contract requirements, and designing the system architecture. I use tools like Hardhat, Remix, and create detailed technical specifications for optimal security and gas efficiency."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,9 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development & Testing"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once I'm agree with the structures, design and the functionalities of the project, I initialize a Git repository and connect it with my GitHub repository. I commit every single major updates using Git Commit Messages and explain with a long description."
+          des="I develop smart contracts using Solidity, integrate with Web3 libraries like ethers.js, and build robust front-end interfaces. Every contract undergoes rigorous testing on testnets, comprehensive security audits, and gas optimization before deployment."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -44,9 +44,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Deployment & Monitoring"
           icon={<AceternityIcon order="Phase 3" />}
-          des="After the development of the project, I convert the project into a build version for deploying and hosting into a network server, usually Vercel, Heroku or Netlify (that's why, I use frameworks and libraries like NextJS and React)."
+          des="After thorough testing, I deploy to mainnet using secure deployment practices. I implement comprehensive monitoring, create detailed documentation, and provide ongoing support. I also set up automated alerts and performance tracking for optimal DApp functionality."
         >
           <CanvasRevealEffect
             animationSpeed={3}

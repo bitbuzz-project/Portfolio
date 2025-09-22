@@ -19,8 +19,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="Visit"
-              href="https://github.com/devsujay19"
+              title={item.link.startsWith('http') ? "Visit Project" : "View Details"}
+              href={item.link.startsWith('http') ? item.link : "#"}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -66,7 +66,9 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple"></p>
+                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                    {item.link.startsWith('http') ? 'Live Project' : 'Blockchain'}
+                  </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>

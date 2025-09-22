@@ -10,8 +10,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sujay's Portfolio",
-  description: "My Final Portfolio, with a Modern and Minimalistic look, smooth animations and transitions.",
+  title: "Harris BTBZ Portfolio",
+  description: "Passionate Web3 developer with a strong background in blockchain automation, smart contract interaction, and data analysis. Experienced in developing bots, decentralized applications, and backend services.",
 };
 
 export default function RootLayout({
